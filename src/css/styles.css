@@ -2,13 +2,26 @@ h1 {
     color: blue;
 }
 
+/*
 #wrapper {
     background-image: url('../assets/venice.jpg');
     height: 1000px;
     background-size: 1200px;
     background-repeat: no-repeat;
 }
+*/
 
 .jumbotron {
     background-color: transparent;
+}
+
+video {
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+#wrapper {
+    z-index: -1;
 }
